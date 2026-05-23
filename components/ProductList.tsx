@@ -65,6 +65,7 @@ export default function ProductList({ products }: { products: Product[] }) {
         setError(msg);
         return;
       }
+      router.refresh();
       router.push(`/reservation/${data.id}`);
     } catch {
       setError("Network error. Please try again.");
