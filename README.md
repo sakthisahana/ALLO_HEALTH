@@ -1,6 +1,7 @@
 # Allo Inventory — Engineering Take-Home
 
 A Next.js (App Router) application for multi-warehouse inventory management with race-condition-safe reservations.
+LIVE URL=https://allo-health-jceb.vercel.app/
 
 ---
 
